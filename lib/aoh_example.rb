@@ -11,7 +11,8 @@ def assembled_aoh
 end
 
 def literal_aoh
-  array = [DON_G.values.sort, JOELLE_VD.values.sort, PAT_M.values.sort, KATE_G.values.sort, BRUCE_G.values.sort]
+  array = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+  array.sort
 end
 
 def aoh_lookup(aoh, row, key)
